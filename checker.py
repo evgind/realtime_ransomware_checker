@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-import subprocess import logging import os import json import logging.handlers
-import requests import inotify.constants import multiprocessing import inotify.adapters import hashlib 
-
+import subprocess logging os json logging.handlers requests inotify.constants multiprocessing inotify.adapters hashlib 
 
 def config(basedir):
     config = {
